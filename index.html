@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DontreeIsnotmusic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- หน้าแรกที่มีข้อความและปุ่ม start -->
+    <div id="startPage" class="page">
+        <img src="image1.jpg" alt="รูปแรก" class="image">
+        <div class="text">เราชื่อดนตรี</div>
+        <div class="subtext">รู้มั้ยถ้าเป็นแฟนเราโชดดีนะเพราะเรา10/10</div>
+        <button id="startBtn" class="btn" onclick="startPage()">Start</button>
+    </div>
+
+    <!-- หน้าเนื้อหาหลังจากกด Start -->
+    <div id="contentPage" class="page" style="display: none;">
+        <div class="content">
+            <img id="image" src="image1.jpg" alt="รูปแรก" class="image">
+            <p id="text">10/10เพราะเราชอบฟังเพลง</p>
+        </div>
+        <div class="buttons">
+            <button id="prevBtn" class="btn" onclick="prevSlide()" style="display: none;">Back</button>
+            <button id="nextBtn" class="btn" onclick="nextSlide()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
