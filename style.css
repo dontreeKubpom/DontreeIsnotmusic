@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.page {
+    display: none;
+}
+
+#startPage {
+    display: block;
+}
+
+.image {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 36px;  /* เพิ่มขนาดข้อความ */
+    color: #333;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 28px;  /* ขนาดข้อความในหน้าเนื้อหา */
+    color: #333;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
